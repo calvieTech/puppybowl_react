@@ -1,0 +1,96 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: gold;
+}
+.puppy__header {
+	text-align: center;
+	margin: 21px 0px;
+	color: rgb(24, 1, 106);
+	border-bottom: 2px solid black;
+}
+
+#puppy__container,
+#puppy__bowl {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin: 0px 14px;
+}
+
+.puppy__player {
+	color: black;
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 550px;
+	height: 600px;
+	background-color: lightblue;
+	margin: 14px;
+	box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.puppy__title {
+	text-align: center;
+	display: block;
+	margin: 7px 0px;
+	border-bottom: 2px solid black;
+}
+
+.puppy__breed {
+	margin: 14px 0px;
+	text-align: center;
+}
+
+.puppy__img {
+	margin: 14px 0px;
+	border: 2px solid white;
+	width: 250px;
+}
+
+.puppy__button {
+	display: flex;
+	gap: 14px;
+	padding: 7px 0px;
+}
+
+.puppy__remove {
+	cursor: pointer;
+	padding: 0px 7px;
+}
+
+.puppy_backToAllPlayers {
+	cursor: pointer;
+	padding: 7px;
+	margin: 7px;
+}
+
+.puppy_backToAllPlayers:hover {
+	background-color: goldenrod;
+	color: black;
+}
+
+.puppy__remove:hover {
+	background-color: red;
+	color: white;
+}
+
+.puppy__info {
+	cursor: pointer;
+	padding: 7px;
+	margin: 7px;
+}
+
+.puppy__info:hover {
+	background-color: goldenrod;
+	color: black;
+}
